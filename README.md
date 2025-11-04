@@ -1,2 +1,2 @@
-# desafios-dio
+# Desafios-dio
 Todos os desafios da DIO referentes ao curso de JAVA
