@@ -48,7 +48,6 @@ public class main{
 
     //DESAFIO 14 - 17 - List<Integer> primos = numeros.stream().filter(n -> n > 1 && IntStream.range(2, (int)Math.sqrt(n) + 1).noneMatch(i -> n % i == 0)).distinct().collect(Collectors.toList());
     //System.out.println(primos);
-    
 
     //DESAFIO 15 - numeros.stream().filter(n -> n < 0).forEach(System.out::println);
 
@@ -56,13 +55,11 @@ public class main{
     //List<Integer> pares = resultado.get(true);
     //List<Integer> impares = resultado.get(false);
 
-
     //DESAFIO 18 - List<Integer> repetidos = numeros.stream().collect(Collectors.groupingBy(n -> n, Collectors.counting())).entrySet().stream().filter(e -> e.getValue() > 1) .map(Map.Entry::getKey) .collect(Collectors.toList());
     //System.out.println(repetidos);
 
-    int soma35 = numeros.stream().filter(n -> n % 3 == 0 || n % 5 == 0).reduce(0,Integer::sum);
-
-    System.out.println(soma35);
+    //DESAFIO 19 - int soma35 = numeros.stream().filter(n -> n % 3 == 0 || n % 5 == 0).reduce(0,Integer::sum);
+    //System.out.println(soma35);
 
 
 
@@ -71,5 +68,6 @@ public class main{
 
    
     
+
 
 
